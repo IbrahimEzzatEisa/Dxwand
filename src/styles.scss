@@ -1,0 +1,75 @@
+
+/*  English font*/
+
+@font-face {
+    font-family: Enbold;
+    src: url("../src/assets/fonts/GOTHICB.TTF");
+  }
+  @font-face {
+    font-family: En;
+    src: url("../src/assets/fonts/GOTHIC.TTF");
+  }
+
+ /*  Arabic font*/
+
+  @font-face {
+    font-family: ArabicBold;
+    src: url("../src/assets/fonts/ArbFONTS-GE_SS_Two_Bold.otf");
+  }
+  @font-face {
+    font-family: ArabicMd;
+    src: url("../src/assets/fonts/ArbFONTS-GE_SS_TWO_MEDIUM.otf");
+  }
+  @font-face {
+    font-family: ArabicLight;
+    src: url("../src/assets/fonts/ArbFONTS-GE-SS-Two-Light.otf");
+  }
+ 
+
+ *{
+   cursor: pointer;
+   position: relative;
+    background-color: #808e9b;
+
+ }
+
+ body{
+  animation: animate 60s  ease-in-out infinite 0s  !important;
+
+ }
+
+@keyframes animate{
+  
+    0%{
+
+    }
+    10%{
+
+    }
+    
+    25%{
+    }
+
+  
+
+    50%{
+
+    }
+ 
+
+    75%{
+
+
+    }
+
+
+       85% {
+
+
+    }
+
+
+       100%{
+
+    }
+  }

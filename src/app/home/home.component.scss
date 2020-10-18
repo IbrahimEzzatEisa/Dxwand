@@ -1,0 +1,157 @@
+
+
+/* Style*/
+
+    /******** sections **********/
+    .home {
+        margin-top: 15%;
+    }
+
+    ngb-progressbar {
+        margin-top: 5rem;
+    }
+
+    /*  darge drop area*/
+    .dndDropArea.empty {
+      min-height: 200px;
+      box-shadow: 5px 10px 10px 5px white;
+      background-color: #808e9b;
+    }
+    /*  darge drop area*/
+    .dndDropArea {
+      min-height: 200px;
+      box-shadow: 1px 5px 5px 3px #d2dae2;
+      background-color: #808e9b;
+    }
+    /* input */
+    .form-control {
+        background-color: #d2dae2;
+        border: 2px solid  white ;
+        border-radius: 13px;
+        margin-bottom: 5px;
+        font-size: 15px;
+        font-family: En;
+    }
+ /* label*/
+    label{
+        color: #1e272e;
+        font-family: En;
+        font-size: 15px;
+    }
+    /* elemet*/
+     .element{
+    box-shadow: 5px 10px 10px 5px #d2dae2;
+
+  }
+  /* Model */
+  .modal-content {
+      background-color: #808e9b;
+  }
+
+  h5 {
+      cursor: pointer;
+      color:#485460 ;
+      &:hover{
+          transform: scale(1.1);
+          color: white;
+        }
+  }
+  span{
+      margin-left: 10px;
+      font-family: En ;
+      font-size: 15px;
+
+  }
+  /* button */
+  .btn-primary {
+    background-color: #d2dae2;
+    color:#485460 ;
+    border: none;
+
+
+  }
+  /* img home*/
+  img {
+      width: 400px;
+      box-shadow: 0px 0px 5px 5px #d2dae2;
+      transform: skewX(-10deg);
+      animation: animate 5s  ease-in-out infinite;
+  }
+
+/* animations*/
+  @keyframes animate{
+  
+    0%{
+        opacity: 0.8;
+
+    }
+   
+    
+       100%{
+        opacity: 1;
+
+    }
+  }
+  /* Form*/
+  .ftheme{
+    box-shadow: 0px 0px 5px 5px #d2dae2;
+    transform: scale(1.2);
+    animation: animated 10s  ease-in-out infinite;
+
+
+  }
+
+
+  /* animations*/
+  @keyframes animated{
+  
+    0%{
+        box-shadow: 0px 0px 5px 5px #d2dae2;
+
+    }
+    10%{
+        box-shadow: 5px 5px 10px 10px #d2dae2;
+
+    }
+    
+       100%{
+        box-shadow: 3px 3px 10px 10px #d2dae2;
+
+    }
+  }
+/* project title*/
+  .title-proj {
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Enbold';  
+  }
+  /* button open modal */
+
+.btn-outline-light {
+    font-family: 'En';  
+
+}
+/* Form title*/
+.form-title{
+    color: white;
+    font-size: 30px;
+    font-family: 'Enbold';  
+}
+/*   *  */
+.text-danger {
+    margin-left: 5px;;
+}
+
+   /* required*/
+   .fa-toggle-on{
+ color: red;
+ margin-left: 8px;
+
+   }
+
+      /* required*/
+      .fa-toggle-off{
+        margin-left: 8px;
+       
+          }
